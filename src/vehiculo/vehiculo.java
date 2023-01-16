@@ -1,7 +1,7 @@
 package producto;
 
-public class taxi {
-    private String numeroLicencia = "";
+public class vehiculo {
+    private int numeroLicencia = "";
     private String propietario = "";
 
     public void setNumeroLicencia (int numeroLicencia){
@@ -14,5 +14,9 @@ public class taxi {
 
     public int getNumeroLicencia(){
         return numeroLicencia;
+    }
+
+    public String getPropietario(){
+        return propietario;
     }
 }
