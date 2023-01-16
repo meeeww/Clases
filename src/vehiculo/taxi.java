@@ -1,18 +1,21 @@
-package producto;
+package vehiculo;
 
 public class taxi extends vehiculo {
-    private String numeroLicencia = "";
-    private String propietario = "";
+   public String numeroLicencia;
 
-    public void setNumeroLicencia (int numeroLicencia){
-        this.numeroLicencia = numeroLicencia
-    }
+   public taxi(String strMarca){
+    super(strMarca);
+   }
 
-    public void setPropietario (String propietario){
-        this.propietario = propietario;
-    }
+   public taxi(String strMarca, String strPropietario){
+    super(strMarca, strPropietario);
+   }
 
-    public int getNumeroLicencia(){
-        return numeroLicencia;
-    }
+   public void setNumeroLicencia(String strNumeroLicencia){
+    setNumeroLicencia(strNumeroLicencia);
+   }
+
+   public String getNumeroLicencia(){
+    return numeroLicencia;
+   }
 }

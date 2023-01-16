@@ -1,18 +1,22 @@
-package producto;
+package vehiculo;
 
-public class bus {
-    private String numeroLicencia = "";
-    private String propietario = "";
+public class bus extends vehiculo{
 
-    public void setNumeroLicencia (int numeroLicencia){
-        this.numeroLicencia = numeroLicencia
-    }
+   public bus(String strMarca){
+    super(strMarca);
+   }
 
-    public void setPropietario (String propietario){
-        this.propietario = propietario;
-    }
+   public bus(String strMarca, String strPropietario){
+    super(strMarca, strPropietario);
+   }
 
-    public int getNumeroLicencia(){
-        return numeroLicencia;
-    }
+   public int numeroPlazas;
+
+   public void setNumeroPlazas(int numeroPlazas){
+    numeroPlazas = numeroPlazas;
+   }
+
+   public int getNumeroPlazas(){
+    return numeroPlazas;
+   }
 }

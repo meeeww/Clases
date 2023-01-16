@@ -1,22 +1,23 @@
-package producto;
+package vehiculo;
 
 public class vehiculo {
-    private int numeroLicencia = "";
+    private String marca = "";
     private String propietario = "";
 
-    public void setNumeroLicencia (int numeroLicencia){
-        this.numeroLicencia = numeroLicencia
+    public void setMarca (String strMarca){
+        this.marca = strMarca
     }
 
-    public void setPropietario (String propietario){
-        this.propietario = propietario;
+    public void setPropietario (String strPropietario){
+        this.propietario = strPropietario;
     }
 
-    public int getNumeroLicencia(){
-        return numeroLicencia;
+    public Vehiculo (String strMarca){
+        return marca;
     }
 
-    public String getPropietario(){
-        return propietario;
+    public Vehiculo (String strMarca, String strPropietario){
+        setMarca(strMarca);
+        setPropietario(strPropietario);
     }
 }
