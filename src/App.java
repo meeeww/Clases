@@ -11,8 +11,8 @@ public class App {
         obCoche.setPropietario("Juan Zas");
         obCoche.getPropietario();
 
-        Taxi obTaxi = new Taxi("Toyota");
-        obTaxi.setNumeroLicencia("12345");
+        taxi obTaxi = new taxi("Toyota");
+        obTaxi.setNumeroLicencia(12345);
         obTaxi.getNumeroLicencia();
         obTaxi.setPropietario("Omar Gómez");
     }
