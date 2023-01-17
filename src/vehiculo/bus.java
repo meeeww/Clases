@@ -6,9 +6,14 @@ public class bus extends Vehiculo {
       super(strMarca);
    }
 
-   public bus(String strMarca, String strPropietario) {
+   public bus(String strMarca, String strPropietario, int numeroPlazas) {
       super(strMarca, strPropietario);
+      setNumeroPlazas(numeroPlazas);
    }
+
+   /*public Autobus(Vehiculo obVehiculo){
+
+   }*/
 
    public int numeroPlazas;
 

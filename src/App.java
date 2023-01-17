@@ -1,4 +1,37 @@
-import vehiculo.*;
+import persona.*;
+
+
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        persona Omar = new persona("Omar", 18);
+        System.out.println(Omar.getNombrePersona());
+        System.out.println(Omar.getEdadPersona());
+
+        empleado Alex = new empleado("Alex", 19, 500);
+        System.out.println(Alex.getSueldo());
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////main de vehiculos
+/*import vehiculo.*;
 
 public class App {
 
@@ -15,8 +48,11 @@ public class App {
         obTaxi.setNumeroLicencia(12345);
         obTaxi.getNumeroLicencia();
         obTaxi.setPropietario("Omar Gómez");
+
+        //bus  obBus = new bus("Trans");
+        //obBus.getVehiculo().getMarca();
     }
-}
+}*/
 
 
 
